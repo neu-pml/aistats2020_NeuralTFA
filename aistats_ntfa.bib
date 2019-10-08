@@ -1,0 +1,341 @@
+@inproceedings{Kingma2015,
+abstract = {We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.},
+archivePrefix = {arXiv},
+arxivId = {1412.6980},
+author = {Kingma, Diederik P. and Ba, Jimmy},
+booktitle = {International Conference on Learning Representations},
+eprint = {1412.6980},
+file = {:home/eli/Downloads/1412.6980.pdf:pdf},
+mendeley-groups = {Machine Learning/Artificial Intelligence/Neural networks},
+pages = {1--15},
+title = {{Adam: A Method for Stochastic Optimization}},
+url = {http://arxiv.org/abs/1412.6980},
+year = {2015}
+}
+
+@inproceedings{Tucker2019,
+abstract = {Deep latent variable models have become a popular model choice due to the scalable learning algorithms introduced by (Kingma {\&} Welling, 2013; Rezende et al., 2014). These approaches maximize a variational lower bound on the intractable log likelihood of the observed data. Burda et al. (2015) introduced a multi-sample variational bound, IWAE, that is at least as tight as the standard variational lower bound and becomes increasingly tight as the number of samples increases. Counterintuitively, the typical inference network gradient estimator for the IWAE bound performs poorly as the number of samples increases (Rainforth et al., 2018; Le et al., 2018). Roeder et al. (2017) propose an improved gradient estimator, however, are unable to show it is unbiased. We show that it is in fact biased and that the bias can be estimated efficiently with a second application of the reparameterization trick. The doubly reparameterized gradient (DReG) estimator does not suffer as the number of samples increases, resolving the previously raised issues. The same idea can be used to improve many recently introduced training techniques for latent variable models. In particular, we show that this estimator reduces the variance of the IWAE gradient, the reweighted wake-sleep update (RWS) (Bornschein {\&} Bengio, 2014), and the jackknife variational inference (JVI) gradient (Nowozin, 2018). Finally, we show that this computationally efficient, unbiased drop-in gradient estimator translates to improved performance for all three objectives on several modeling tasks.},
+archivePrefix = {arXiv},
+arxivId = {1810.04152},
+author = {Tucker, George and Lawson, Dieterich and Gu, Shixiang and Maddison, Chris J.},
+booktitle = {International Conference on Learning Representations},
+eprint = {1810.04152},
+file = {:home/eli/Downloads/19726e292215ba5feaede515a28e98368ebfc974.pdf:pdf;:home/eli/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Tucker et al. - 2018 - Doubly Reparameterized Gradient Estimators for Monte Carlo Objectives.pdf:pdf},
+mendeley-groups = {Machine Learning/Artificial Intelligence/Probabilistic methods},
+pages = {1--12},
+title = {{Doubly Reparameterized Gradient Estimators for Monte Carlo Objectives}},
+url = {http://arxiv.org/abs/1810.04152},
+year = {2019}
+}
+
+@article{abdi2010principal,
+  title = {Principal Component Analysis},
+  volume = {2},
+  number = {4},
+  journal = {Wiley interdisciplinary reviews: computational statistics},
+  author = {Abdi, Herv{\'e} and Williams, Lynne J.},
+  year = {2010},
+  pages = {433--459},
+  file = {/Users/janwillem/Zotero/storage/9CF8R97G/Abdi - 2010 - Principal component analysis.pdf;/Users/janwillem/Zotero/storage/XUJWPCGZ/wics.html}
+}
+
+@book{hyvarinen2001independent,
+  title = {Independent Component Analysis},
+  publisher = {{Wiley Online Library}},
+  author = {Hyv{\"a}rinen, Aapo and Karhunen, Juha and Oja, Erkki},
+  year = {2001},
+  file = {/Users/janwillem/Zotero/storage/7Y6IKW6T/Hyvärinen - 2001 - What is independent component analysis.pdf;/Users/janwillem/Zotero/storage/ZXDI24EW/0471221317.html}
+}
+
+@article{haxby2011common,
+  title = {A Common, High-Dimensional Model of the Representational Space in Human Ventral Temporal Cortex},
+  volume = {72},
+  number = {2},
+  journal = {Neuron},
+  author = {Haxby, James V. and Guntupalli, J. Swaroop and Connolly, Andrew C. and Halchenko, Yaroslav O. and Conroy, Bryan R. and Gobbini, M. Ida and Hanke, Michael and Ramadge, Peter J.},
+  year = {2011},
+  pages = {404--416},
+  file = {/Users/janwillem/Zotero/storage/CUVNVYL2/Haxby - 2011 - A common, high-dimensional model of the representational space in human ventral.pdf;/Users/janwillem/Zotero/storage/ACJQ75C6/S0896627311007811.html}
+}
+
+@inproceedings{chen2015reduced-dimension,
+  title = {A Reduced-Dimension {{fMRI}} Shared Response Model},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Chen, Po-Hsuan Cameron and Chen, Janice and Yeshurun, Yaara and Hasson, Uri and Haxby, James and Ramadge, Peter J.},
+  year = {2015},
+  pages = {460--468},
+  file = {/Users/janwillem/Zotero/storage/JL9MLTIH/Chen - 2015 - A reduced-dimension fMRI shared response model.pdf;/Users/janwillem/Zotero/storage/YC985KYI/5855-a-reduced-dimension-fmri-shared-response-model.html}
+}
+
+@article{manning2014topographic,
+  title = {Topographic {{Factor Analysis}}: {{A Bayesian Model}} for {{Inferring Brain Networks}} from {{Neural Data}}},
+  volume = {9},
+  issn = {1932-6203},
+  shorttitle = {Topographic {{Factor Analysis}}},
+  doi = {10.1371/journal.pone.0094914},
+  abstract = {The neural patterns recorded during a neuroscientific experiment reflect complex interactions between many brain regions, each comprising millions of neurons. However, the measurements themselves are typically abstracted from that underlying structure. For example, functional magnetic resonance imaging (fMRI) datasets comprise a time series of three-dimensional images, where each voxel in an image (roughly) reflects the activity of the brain structure(s)\textendash{}located at the corresponding point in space\textendash{}at the time the image was collected. FMRI data often exhibit strong spatial correlations, whereby nearby voxels behave similarly over time as the underlying brain structure modulates its activity. Here we develop topographic factor analysis (TFA), a technique that exploits spatial correlations in fMRI data to recover the underlying structure that the images reflect. Specifically, TFA casts each brain image as a weighted sum of spatial functions. The parameters of those spatial functions, which may be learned by applying TFA to an fMRI dataset, reveal the locations and sizes of the brain structures activated while the data were collected, as well as the interactions between those structures.},
+  number = {5},
+  journal = {PLOS ONE},
+  author = {Manning, Jeremy R. and Ranganath, Rajesh and Norman, Kenneth A. and Blei, David M.},
+  month = may,
+  year = {2014},
+  keywords = {Algorithms,Behavior,Covariance,Factor analysis,Functional magnetic resonance imaging,Neural networks,Neuroimaging,Principal component analysis},
+  pages = {e94914},
+  file = {/Users/janwillem/Zotero/storage/9SFVWXJ5/Manning - 2014 - Topographic Factor Analysis.pdf}
+}
+
+@inproceedings{manning2014hierarchical,
+  title = {Hierarchical Topographic Factor Analysis},
+  booktitle = {Pattern {{Recognition}} in {{Neuroimaging}}, 2014 {{International Workshop}} On},
+  publisher = {{IEEE}},
+  author = {Manning, Jeremy R. and Ranganath, Rajesh and Keung, Waitsang and Turk-Browne, Nicholas B. and Cohen, Jonathan D. and Norman, Kenneth A. and Blei, David M.},
+  year = {2014},
+  pages = {1--4},
+  file = {/Users/janwillem/Zotero/storage/2VXY884C/Manning - 2014 - Hierarchical topographic factor analysis.pdf;/Users/janwillem/Zotero/storage/I7M5TDH7/6858530.html}
+}
+
+@incollection{narayanaswamy2017learning,
+  title = {Learning {{Disentangled Representations}} with {{Semi}}-{{Supervised Deep Generative Models}}},
+  copyright = {All rights reserved},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 30},
+  publisher = {{Curran Associates, Inc.}},
+  author = {Narayanaswamy, Siddharth and Paige, T. Brooks and {van de Meent}, Jan-Willem and Desmaison, Alban and Goodman, Noah and Kohli, Pushmeet and Wood, Frank and Torr, Philip},
+  editor = {Guyon, I. and Luxburg, U. V. and Bengio, S. and Wallach, H. and Fergus, R. and Vishwanathan, S. and Garnett, R.},
+  year = {2017},
+  pages = {5927--5937},
+  file = {/Users/janwillem/Zotero/storage/ELCPGXZP/Narayanaswamy - 2017 - Learning Disentangled Representations with Semi-Supervised Deep Generative.pdf}
+}
+@inproceedings{Burda2016,
+abstract = {The variational autoencoder (VAE; Kingma, Welling (2014)) is a recently proposed generative model pairing a top-down generative network with a bottom-up recognition network which approximates posterior inference. It typically makes strong assumptions about posterior inference, for instance that the posterior distribution is approximately factorial, and that its parameters can be approximated with nonlinear regression from the observations. As we show empirically, the VAE objective can lead to overly simplified representations which fail to use the network's entire modeling capacity. We present the importance weighted autoencoder (IWAE), a generative model with the same architecture as the VAE, but which uses a strictly tighter log-likelihood lower bound derived from importance weighting. In the IWAE, the recognition network uses multiple samples to approximate the posterior, giving it increased flexibility to model complex posteriors which do not fit the VAE modeling assumptions. We show empirically that IWAEs learn richer latent space representations than VAEs, leading to improved test log-likelihood on density estimation benchmarks.},
+archivePrefix = {arXiv},
+arxivId = {1509.00519},
+author = {Burda, Yuri and Grosse, Roger and Salakhutdinov, Ruslan},
+booktitle = {International Conference on Learning Representations},
+eprint = {1509.00519},
+file = {:home/work/Downloads/1509.00519.pdf:pdf},
+mendeley-groups = {Machine Learning/Artificial Intelligence/Probabilistic methods,Machine Learning/Artificial Intelligence/Probabilistic methods/Deep generative models},
+title = {{Importance Weighted Autoencoders}},
+url = {http://arxiv.org/abs/1509.00519},
+year = {2016}
+}
+@misc{2018probtorch,
+  title = {{{Probabilistic Torch}}: A Library for Deep Generative Models That Extends {{PyTorch}}},
+  copyright = {Apache-2.0},
+  shorttitle = {Probtorch},
+  publisher = {{probtorch}},
+  url = {https://github.com/probtorch/probtorch},
+  month = apr,
+  year = {2018}
+}
+
+@article{paszke2017automatic,
+  title = {Automatic Differentiation in {{PyTorch}}},
+  author = {Paszke, Adam and Gross, Sam and Chintala, Soumith and Chanan, Gregory and Yang, Edward and DeVito, Zachary and Lin, Zeming and Desmaison, Alban and Antiga, Luca and Lerer, Adam},
+  year = {2017},
+  file = {/Users/janwillem/Zotero/storage/Q6HETJJ9/Paszke - 2017 - Automatic differentiation in PyTorch.pdf;/Users/janwillem/Zotero/storage/7ABMGPC8/forum.html}
+}
+
+@article{simony2016dynamic,
+ title={Dynamic reconfiguration of the default mode network during narrative comprehension},
+ author={Simony, Erez and Honey, Christopher J and Chen, Janice and Lositsky, Olga and Yeshurun, Yaara and Wiesel, Ami and Hasson, Uri},
+ journal={Nature communications},
+ volume={7},
+ pages={12141},
+ year={2016},
+ publisher={Nature Publishing Group}
+}
+
+@misc{pieman,
+  title = {The {{Moth}} | {{Stories}} | {{Pie Man}}},
+  abstract = {A fledgling journalist covers the birth of a campus sensation.},
+  language = {en-US},
+  url = {http://themoth.org/stories/pie-man},
+  journal = {The Moth}
+}
+
+@article{craddock2012whole,
+  title={A whole brain fMRI atlas generated via spatially constrained spectral clustering},
+  author={Craddock, R Cameron and James, G Andrew and Holtzheimer III, Paul E and Hu, Xiaoping P and Mayberg, Helen S},
+  journal={Human brain mapping},
+  volume={33},
+  number={8},
+  pages={1914--1928},
+  year={2012},
+  publisher={Wiley Online Library}
+}
+
+@article{gonzalez2015tracking,
+  title={Tracking ongoing cognition in individuals using brief, whole-brain functional connectivity patterns},
+  author={Gonzalez-Castillo, Javier and Hoy, Colin W and Handwerker, Daniel A and Robinson, Meghan E and Buchanan, Laura C and Saad, Ziad S and Bandettini, Peter A},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={112},
+  number={28},
+  pages={8762--8767},
+  year={2015},
+  publisher={National Acad Sciences}
+}
+
+@article{power2011functional,
+  title={Functional network organization of the human brain},
+  author={Power, Jonathan D and Cohen, Alexander L and Nelson, Steven M and Wig, Gagan S and Barnes, Kelly Anne and Church, Jessica A and Vogel, Alecia C and Laumann, Timothy O and Miezin, Fran M and Schlaggar, Bradley L and others},
+  journal={Neuron},
+  volume={72},
+  number={4},
+  pages={665--678},
+  year={2011},
+  publisher={Elsevier}
+}
+
+@article{thomas2011organization,
+  title={The organization of the human cerebral cortex estimated by intrinsic functional connectivity},
+  author={Thomas Yeo, BT and Krienen, Fenna M and Sepulcre, Jorge and Sabuncu, Mert R and Lashkari, Danial and Hollinshead, Marisa and Roffman, Joshua L and Smoller, Jordan W and Z{\"o}llei, Lilla and Polimeni, Jonathan R and others},
+  journal={Journal of neurophysiology},
+  volume={106},
+  number={3},
+  pages={1125--1165},
+  year={2011},
+  publisher={American Physiological Society Bethesda, MD}
+}
+
+@article{betzel2017modular,
+  title={The modular organization of human anatomical brain networks: Accounting for the cost of wiring},
+  author={Betzel, Richard F and Medaglia, John D and Papadopoulos, Lia and Baum, Graham L and Gur, Ruben and Gur, Raquel and Roalf, David and Satterthwaite, Theodore D and Bassett, Danielle S},
+  journal={Network Neuroscience},
+  volume={1},
+  number={1},
+  pages={42--68},
+  year={2017},
+  publisher={MIT Press}
+}
+@article{fox2010clinical,
+  title={Clinical applications of resting state functional connectivity},
+  author={Fox, Michael D and Greicius, Michael},
+  journal={Frontiers in systems neuroscience},
+  volume={4},
+  pages={19},
+  year={2010},
+  publisher={Frontiers}
+}
+@article{shen2013groupwise,
+  title={Groupwise whole-brain parcellation from resting-state fMRI data for network node identification},
+  author={Shen, Xilin and Tokoglu, Fuyuze and Papademetris, Xenios and Constable, R Todd},
+  journal={Neuroimage},
+  volume={82},
+  pages={403--415},
+  year={2013},
+  publisher={Elsevier}
+}
+@article{Anderson2016,
+abstract = {The scale of functional magnetic resonance image data is rapidly increasing as large multi-subject datasets are becoming widely available and high-resolution scanners are adopted. The inherent low-dimensionality of the information in this data has led neuroscientists to consider factor analysis methods to extract and analyze the underlying brain activity. In this work, we consider two recent multi-subject factor analysis methods: the Shared Response Model and Hierarchical Topographic Factor Analysis. We perform analytical, algorithmic, and code optimization to enable multi-node parallel implementations to scale. Single-node improvements result in 99x and 1812x speedups on these two methods, and enables the processing of larger datasets. Our distributed implementations show strong scaling of 3.3x and 5.5x respectively with 20 nodes on real datasets. We also demonstrate weak scaling on a synthetic dataset with 1024 subjects, on up to 1024 nodes and 32,768 cores.},
+archivePrefix = {arXiv},
+arxivId = {1608.04647},
+author = {Anderson, Michael J. and Capota, Mihai and Turek, Javier S. and Zhu, Xia and Willke, Theodore L. and Wang, Yida and Chen, Po Hsuan and Manning, Jeremy R. and Ramadge, Peter J. and Norman, Kenneth A.},
+doi = {10.1109/BigData.2016.7840719},
+eprint = {1608.04647},
+file = {:home/eli/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Anderson et al. - 2016 - Enabling factor analysis on thousand-subject neuroimaging datasets.pdf:pdf},
+isbn = {9781467390040},
+journal = {Proceedings - 2016 IEEE International Conference on Big Data, Big Data 2016},
+keywords = {Factor Analysis,Multi-subject Analysis,Scaling,functional Magnetic Resonance Imaging},
+mendeley-groups = {Neuroscience/fMRI analysis,Neuroscience},
+pages = {1151--1160},
+title = {{Enabling factor analysis on thousand-subject neuroimaging datasets}},
+year = {2016}
+}
+@article{gershman2011topographic,
+  title={A topographic latent source model for fMRI data},
+  author={Gershman, Samuel J and Blei, David M and Pereira, Francisco and Norman, Kenneth A},
+  journal={NeuroImage},
+  volume={57},
+  number={1},
+  pages={89--100},
+  year={2011},
+  publisher={Elsevier}
+}
+@article{Chen035931,
+	author = {Chen, Janice and Leong, Yuan Chang and Norman, Kenneth A and Hasson, Uri},
+	title = {Shared experience, shared memory: a common structure for brain activity during naturalistic recall},
+	year = {2016},
+	doi = {10.1101/035931},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Our daily lives revolve around sharing experiences and memories with others. When different people recount the same events, how similar are their underlying neural representations? In this study, participants viewed a fifty-minute audio-visual movie, then verbally described the events while undergoing functional MRI. These descriptions were completely unguided and highly detailed, lasting for up to forty minutes. As each person spoke, event-specific spatial patterns were reinstated (movie-vs.-recall correlation) in default network, medial temporal, and high-level visual areas; moreover, individual event patterns were highly discriminable and similar between people during recollection (recall-vs.-recall similarity), suggesting the existence of spatially organized memory representations. In posterior medial cortex, medial prefrontal cortex, and angular gyrus, activity patterns during recall were more similar between people than to patterns elicited by the movie, indicating systematic reshaping of percept into memory across individuals. These results reveal striking similarity in how neural activity underlying real-life memories is organized and transformed in the brains of different people as they speak spontaneously about past events.},
+	URL = {https://www.biorxiv.org/content/early/2016/01/05/035931},
+	eprint = {https://www.biorxiv.org/content/early/2016/01/05/035931.full.pdf},
+	journal = {bioRxiv}
+}
+
+@article{manning2018probabilistic,
+  title={A probabilistic approach to discovering dynamic full-brain functional connectivity patterns},
+  author={Manning, Jeremy R and Zhu, Xia and Willke, Theodore L and Ranganath, Rajesh and Stachenfeld, Kimberly and Hasson, Uri and Blei, David M and Norman, Kenneth A},
+  journal={NeuroImage},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{10.1371/journal.pone.0156859,
+    author = {Lepping, Rebecca J. AND Atchley, Ruth Ann AND Chrysikou, Evangelia AND Martin, Laura E. AND Clair, Alicia A. AND Ingram, Rick E. AND Simmons, W. Kyle AND Savage, Cary R.},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Neural Processing of Emotional Musical and Nonmusical Stimuli in Depression},
+    year = {2016},
+    month = {06},
+    volume = {11},
+    url = {https://doi.org/10.1371/journal.pone.0156859},
+    pages = {1-23},
+    abstract = {Background Anterior cingulate cortex (ACC) and striatum are part of the emotional neural circuitry implicated in major depressive disorder (MDD). Music is often used for emotion regulation, and pleasurable music listening activates the dopaminergic system in the brain, including the ACC. The present study uses functional MRI (fMRI) and an emotional nonmusical and musical stimuli paradigm to examine how neural processing of emotionally provocative auditory stimuli is altered within the ACC and striatum in depression.   Method Nineteen MDD and 20 never-depressed (ND) control participants listened to standardized positive and negative emotional musical and nonmusical stimuli during fMRI scanning and gave subjective ratings of valence and arousal following scanning.   Results ND participants exhibited greater activation to positive versus negative stimuli in ventral ACC. When compared with ND participants, MDD participants showed a different pattern of activation in ACC. In the rostral part of the ACC, ND participants showed greater activation for positive information, while MDD participants showed greater activation to negative information. In dorsal ACC, the pattern of activation distinguished between the types of stimuli, with ND participants showing greater activation to music compared to nonmusical stimuli, while MDD participants showed greater activation to nonmusical stimuli, with the greatest response to negative nonmusical stimuli. No group differences were found in striatum.   Conclusions These results suggest that people with depression may process emotional auditory stimuli differently based on both the type of stimulation and the emotional content of that stimulation. This raises the possibility that music may be useful in retraining ACC function, potentially leading to more effective and targeted treatments.},
+    number = {6},
+    doi = {10.1371/journal.pone.0156859}
+}
+@article{pmlr-v33-ranganath14,
+abstract = {Variational inference has become a widely used method to approximate posteriors in complex latent variables models. However, deriving a variational inference algorithm generally requires significant model-specific analysis, and these efforts can hinder and deter us from quickly developing and exploring a variety of models for a problem at hand. In this paper, we present a "black box" variational inference algorithm, one that can be quickly applied to many models with little additional derivation. Our method is based on a stochastic optimization of the variational objective where the noisy gradient is computed from Monte Carlo samples from the variational distribution. We develop a number of methods to reduce the variance of the gradient, always maintaining the criterion that we want to avoid difficult model-based derivations. We evaluate our method against the corresponding black box sampling based methods. We find that our method reaches better predictive likelihoods much faster than sampling methods. Finally, we demonstrate that Black Box Variational Inference lets us easily explore a wide space of models by quickly constructing and evaluating several models of longitudinal healthcare data.},
+address = {Reykjavik, Iceland},
+archivePrefix = {arXiv},
+arxivId = {1401.0118},
+author = {Ranganath, Rajesh and Gerrish, Sean and Blei, David M},
+editor = {Kaski, Samuel and Corander, Jukka},
+eprint = {1401.0118},
+file = {:home/eli/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Ranganath, Gerrish, Blei - 2014 - Black Box Variational Inference.pdf:pdf},
+isbn = {1401.0118},
+issn = {15337928},
+journal = {Proceedings of the Seventeenth International Conference on Artificial Intelligence and Statistics},
+mendeley-groups = {Machine Learning/Artificial Intelligence/Probabilistic methods},
+pages = {814--822},
+publisher = {PMLR},
+series = {Proceedings of Machine Learning Research},
+title = {{Black Box Variational Inference}},
+url = {http://proceedings.mlr.press/v33/ranganath14.html},
+volume = {33},
+year = {2014}
+}
+@article{Edelman2001,
+abstract = {Degeneracy, the ability of elements that are structurally different to perform the same function or yield the same output, is a well known characteristic of the genetic code and immune systems. Here, we point out that degeneracy is a ubiquitous biological property and argue that it is a feature of complexity at genetic, cellular, system, and population levels. Furthermore, it is both necessary for, and an inevitable outcome of, natural selection.},
+author = {Edelman, G. M. and Gally, J. A.},
+doi = {10.1073/pnas.231499798},
+file = {:home/eli/Downloads/pq2401013763.pdf:pdf},
+isbn = {0027-8424 (Print)$\backslash$n0027-8424 (Linking)},
+issn = {0027-8424},
+journal = {Proceedings of the National Academy of Sciences},
+number = {24},
+pages = {13763--13768},
+pmid = {11698650},
+title = {{Degeneracy and complexity in biological systems}},
+url = {http://www.pnas.org/cgi/doi/10.1073/pnas.231499798},
+volume = {98},
+year = {2001}
+}
+@article{Marder2011,
+archivePrefix = {arXiv},
+arxivId = {NIHMS150003},
+author = {Marder, Eve and Taylor, Adam L},
+doi = {10.1016/j.dcn.2011.01.002.The},
+eprint = {NIHMS150003},
+file = {:home/eli/Downloads/nihms470002.pdf:pdf},
+isbn = {6176321972},
+issn = {15378276},
+journal = {Nature neuroscience},
+keywords = {adolescence,affiliative,childhood,emotion},
+number = {2},
+pages = {133--138},
+title = {{Multiple models to capture the variability in biological neurons and networks}},
+volume = {14},
+year = {2011}
+}

@@ -1,0 +1,34 @@
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+\algnewcommand\algorithmicassert{\texttt{assert}}
+\algnewcommand\Assert[1]{\State{} \algorithmicassert(#1)}
+
+\algnewcommand\algorithmicswitch{\textbf{switch}}
+\algnewcommand\algorithmiccase{\textbf{case}}
+\algnewcommand\algorithmicdefault{\textbf{default}}
+\algdef{SE}[SWITCH]{Switch}{EndSwitch}[1]{\algorithmicswitch\ #1\ \algorithmicdo}{\algorithmicend\ \algorithmicswitch}
+\algdef{SE}[CASE]{Case}{EndCase}[1]{\algorithmiccase\ #1}{\algorithmicend\ \algorithmiccase}
+\algdef{SE}[DEFAULT]{Default}{EndDefault}[1]{\algorithmicdefault\ #1}{\algorithmicend\ \algorithmicdefault}
+\algtext*{EndSwitch}
+\algtext*{EndCase}
+\algtext*{EndDefault}
+
+\algnewcommand\algorithmicmatch{\textbf{match}}
+\algdef{SE}[MATCH]{Match}{EndMatch}[1]{\algorithmicmatch\ #1}{\algorithmicend\ \algorithmicmatch}
+\algtext*{EndMatch}
+
+\algnewcommand\algorithmictry{\textbf{try}}
+\algnewcommand\algorithmiccatch{\textbf{catch}}
+\algblockdefx[Try]{Try}{EndTry}{\algorithmictry}{\algorithmicend\ \algorithmictry}
+\algtext*{EndTry}
+\algcblockdefx[Catch]{Try}{Catch}{EndTry}[1]{\algorithmiccatch\ #1}{\algorithmicend\ \algorithmictry}%
+\algtext*{EndTry}
+\MakeRobust{\Call}
+
+\algdef{SE}[QUERY]{Query}{EndQuery}%
+   [2]{\textbf{query}\ \textproc{#1}\ifthenelse{\equal{#2}{}}{}{(#2)}}%
+   {\algorithmicend\ \algorithmicquery}%
+\algtext*{EndQuery}
+
+\def\@algocf@capt@ruled{under}
